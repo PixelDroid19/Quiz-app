@@ -1,0 +1,10 @@
+.BarOption{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #252d4a;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
