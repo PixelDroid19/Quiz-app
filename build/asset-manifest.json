@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PixelDroid19/Quiz-app/quiz-app/static/css/main.44fe550b.css",
-    "main.js": "/PixelDroid19/Quiz-app/quiz-app/static/js/main.0cb9f381.js",
+    "main.js": "/PixelDroid19/Quiz-app/quiz-app/static/js/main.1614a30c.js",
     "index.html": "/PixelDroid19/Quiz-app/quiz-app/index.html",
     "main.44fe550b.css.map": "/PixelDroid19/Quiz-app/quiz-app/static/css/main.44fe550b.css.map",
-    "main.0cb9f381.js.map": "/PixelDroid19/Quiz-app/quiz-app/static/js/main.0cb9f381.js.map"
+    "main.1614a30c.js.map": "/PixelDroid19/Quiz-app/quiz-app/static/js/main.1614a30c.js.map"
   },
   "entrypoints": [
     "static/css/main.44fe550b.css",
-    "static/js/main.0cb9f381.js"
+    "static/js/main.1614a30c.js"
   ]
 }
