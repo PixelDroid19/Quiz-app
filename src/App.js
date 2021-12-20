@@ -5,11 +5,11 @@ import { BarOption } from "./Components/BarOption/BarOption";
 import { BarRounds } from "./Components/BarRounds/BarRounds";
 import "./App.css";
 
-const App = () => {
-
+const App = (props) => {
+  console.log(props.UserName)
   const { Pos, Name, Score, Wrong, Correct } =
     localStorage.getItem("User") === null
-      ? { Pos: 0, Name: "unkwon", Score: 0, Wrong: "", Correct: "" }
+      ? { Pos: 0, Name: props.UserName, Score: 0, Wrong: "", Correct: "" }
       : JSON.parse(localStorage.getItem("User"));
 
   //State
@@ -20,7 +20,6 @@ const App = () => {
   const [CorrectAnswer, setCorrectAnswer] = useState(Correct);
   const [WrongAnswer, setWrongAnswer] = useState(Wrong);
   const Question = questions[Rounds];
-
 
   const handleAnswer = (isCorrect) => {
     if (isCorrect === true && currentQuestion < Question.length - 1) {
