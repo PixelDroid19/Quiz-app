@@ -1,7 +1,5 @@
 # Quiz App
-
-A simple application, built with ReactJs
-
+The save button serves to save the current progress of the player so you can save the game and then continue where you want it
 
 ## Set up
 
@@ -18,4 +16,4 @@ You'll need [Node.js](https://nodejs.org/) on your local development machine.
 3. Enjoy :)
 
 # Demo
-[Live demo](https://pokemonpage-53d31.web.app/)
+[Live demo](https://quiz-softka.herokuapp.com/)
