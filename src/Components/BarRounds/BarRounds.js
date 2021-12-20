@@ -5,11 +5,17 @@ export const BarRounds = (props) => {
     <div className="question-section">
       <div className="question-count">
         <div className="BoxCount">
-          <span>Rondas {parseInt(props.Rounds) + 1}</span>/{props.questions.length}
-          <br />
+          <span>Rondas</span>
+          <span>
+            {parseInt(props.Rounds) + 1}/{props.questions.length}
+          </span>
         </div>
+
         <div className="BoxCount">
-          <span>Preguntas {props.currentQuestion + 1}</span>/{props.Question.length}
+          <span>Preguntas</span>
+          <span>
+            {props.currentQuestion + 1}/{props.Question.length}
+          </span>
         </div>
       </div>
       <div className="question-text">
