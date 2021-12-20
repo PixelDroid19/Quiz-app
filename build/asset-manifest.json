@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PixelDroid19/Quiz-app/static/css/main.413ece54.css",
+    "main.js": "/PixelDroid19/Quiz-app/static/js/main.c1428a4c.js",
+    "index.html": "/PixelDroid19/Quiz-app/index.html",
+    "main.413ece54.css.map": "/PixelDroid19/Quiz-app/static/css/main.413ece54.css.map",
+    "main.c1428a4c.js.map": "/PixelDroid19/Quiz-app/static/js/main.c1428a4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.413ece54.css",
+    "static/js/main.c1428a4c.js"
+  ]
+}
